@@ -11,10 +11,8 @@ from selenium.webdriver.support import expected_conditions as EC
 logging.basicConfig(filename='error_log.txt', level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-
 def get_pin_data_from_category_page(driver, category_url):
     driver.get(category_url)
-
     try:
         # Wait for pin elements to be present
         pin_elements = WebDriverWait(driver, 10).until(

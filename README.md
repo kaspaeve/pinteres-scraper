@@ -43,4 +43,3 @@ This script allows users to scrape Pinterest pin data for a specified user and c
 
 ## License
 This project is open source. Please note that while the code can be used freely, the user is responsible for how it is employed.
-
