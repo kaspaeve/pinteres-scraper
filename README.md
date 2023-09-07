@@ -25,7 +25,7 @@ This script allows users to scrape Pinterest pin data for a specified user and c
 2. Run:
 
     ```bash
-    python script_name.py
+    python scraper.py
     ```
 
 3. Follow the prompts to enter the Pinterest `username` and `category` you wish to scrape.
